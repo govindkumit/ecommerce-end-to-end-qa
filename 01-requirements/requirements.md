@@ -8,7 +8,7 @@
 | Application Under Test | SauceDemo |
 | Document | Software Requirements Specification |
 | Version | 1.0 |
-| Status | Draft |
+| Status | Final |
 | QA Owner | QA Engineering Team |
 
 ---
