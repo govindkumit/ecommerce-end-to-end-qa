@@ -67,6 +67,9 @@ Test Metrics
 Release Readiness
      ↓
 Test Summary
+
+---
+
 📂 Project Deliverables
 
 The repository is organized into 12 stages representing the major activities of the QA lifecycle.
@@ -84,6 +87,9 @@ Stage	QA Activity	Purpose
 10	Test Metrics	Measure testing progress and quality indicators
 11	Release Readiness	Assess quality risks and release readiness
 12	Test Summary	Consolidate testing results and overall QA assessment
+
+---
+
 🧪 Testing Coverage
 
 The project covers multiple functional testing techniques and QA activities.
@@ -103,6 +109,9 @@ Defect validation
 Test reporting
 Quality assessment
 Release readiness evaluation
+
+---
+
 🐞 Defect Management
 
 The defect management process considers:
@@ -120,6 +129,8 @@ Defect closure validation
 
 The objective is to demonstrate a structured defect lifecycle rather than simply recording test failures.
 
+---
+
 🔄 Regression Testing
 
 Regression testing is planned around the impact of changes and previously identified risks.
@@ -133,6 +144,9 @@ Critical user journeys
 High-risk areas
 Previously identified defects
 Core end-to-end workflows
+
+---
+
 📊 Test Metrics & Quality Assessment
 
 The project incorporates quality indicators to support objective assessment of the testing process.
@@ -150,6 +164,8 @@ Outstanding release risks
 
 These indicators help provide a clear view of product quality and support release decision-making.
 
+---
+
 🚦 Release Readiness
 
 Release readiness is assessed using factors such as:
@@ -164,6 +180,8 @@ Overall product stability
 Outstanding quality risks
 
 The objective is to provide a structured QA perspective for release decision-making.
+
+---
 
 🧭 QA Engineering Approach
 
@@ -189,7 +207,10 @@ Assess Release Readiness
 
 This approach reflects the role of QA engineering across the broader software development lifecycle.
 
+---
+
 📁 Repository Structure
+
 ecommerce-end-to-end-qa/
 │
 ├── 01-requirements/
@@ -207,7 +228,10 @@ ecommerce-end-to-end-qa/
 │
 ├── .gitignore
 └── README.md
+
+---
 💼 Skills Demonstrated
+
 QA Engineering
 Test Strategy
 Test Planning
@@ -231,7 +255,10 @@ Regression planning
 Quality reporting
 Release decision support
 QA governance
+
+---
 🎯 Key Takeaway
+
 
 This project demonstrates a complete QA engineering lifecycle, from understanding requirements to providing a structured release-readiness assessment.
 
