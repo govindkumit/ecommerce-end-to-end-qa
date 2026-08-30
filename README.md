@@ -275,3 +275,11 @@ Rather than focusing only on test execution, the project demonstrates how QA con
 **Strategy → Planning → Design → Execution → Defect Management → Regression → Metrics → Release Readiness**
 
 It is intended to serve as practical Proof of Work demonstrating structured QA engineering and quality ownership.
+
+---
+
+## 👨‍💻 Author
+
+**Govind**
+QA Engineering | Test Automation | API | Performance | Security
+
