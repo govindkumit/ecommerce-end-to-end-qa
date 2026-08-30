@@ -4,25 +4,19 @@
 
 ## 📌 Overview
 
-This project demonstrates an end-to-end Software Quality Engineering
-lifecycle for an e-commerce application.
+This project demonstrates an end-to-end Software Quality Engineering lifecycle for an e-commerce application.
 
-The objective is to demonstrate how a QA Engineer can take a product
-from requirements analysis through test planning, test execution,
-defect management, regression planning, quality metrics and release
-readiness.
+The objective is to demonstrate how a QA Engineer can take a product from requirements analysis through test strategy, test planning, test design, execution, defect management, regression, quality metrics and release readiness.
 
-This project focuses on **functional QA, test engineering,
-test documentation, defect management and QA governance**.
+The project focuses on **functional QA, test engineering, test documentation, defect management and QA governance**.
 
-The project is designed as a practical Proof of Work demonstrating
-how QA activities are performed across the complete testing lifecycle.
+It is designed as a practical **Proof of Work** demonstrating how structured QA activities can be applied across the software development lifecycle.
 
 ---
 
-# 🎯 Objectives
+## 🎯 Objectives
 
-The project demonstrates practical experience in:
+The project demonstrates practical application of:
 
 - Requirement analysis
 - Test strategy
@@ -31,21 +25,23 @@ The project demonstrates practical experience in:
 - Test case design
 - Test data preparation
 - Functional testing
-- Negative testing
+- Positive and negative testing
 - Boundary testing
 - End-to-end testing
 - Defect identification and reporting
 - Defect severity and priority assessment
 - Regression planning
 - Test metrics
-- Release readiness assessment
 - Risk assessment
-- QA governance
+- Release readiness assessment
 - Test summary reporting
+- QA governance
 
 ---
 
-# 🏗️ QA Lifecycle
+## 🏗️ QA Lifecycle
+
+The project follows a structured QA lifecycle from requirements through release assessment:
 
 ```text
 Requirements
@@ -71,59 +67,45 @@ Test Metrics
 Release Readiness
      ↓
 Test Summary
+📂 Project Deliverables
 
-📊 Project Deliverables
+The repository is organized into 12 stages representing the major activities of the QA lifecycle.
 
-This project includes practical QA artifacts covering the complete testing lifecycle:
-
-Area	Deliverable
-Requirements	Requirement analysis
-Strategy	Test strategy
-Planning	Test plan
-Test Design	Test scenarios & test cases
-Test Data	Test data preparation
-Execution	Test execution results
-Defects	Defect reports
-Regression	Regression test planning
-Metrics	QA metrics
-Release	Release readiness assessment
-Reporting	Test summary report
+Stage	QA Activity	Purpose
+01	Requirements	Understand product requirements and testing scope
+02	Test Strategy	Define overall testing approach and priorities
+03	Test Plan	Define scope, approach, resources and execution plan
+04	Test Scenarios	Identify business and functional scenarios
+05	Test Cases	Convert scenarios into detailed test cases
+06	Test Data	Prepare data required for test execution
+07	Test Execution	Execute tests and capture results
+08	Defects	Document and assess defects
+09	Regression	Define regression coverage and validation
+10	Test Metrics	Measure testing progress and quality indicators
+11	Release Readiness	Assess quality risks and release readiness
+12	Test Summary	Consolidate testing results and overall QA assessment
 🧪 Testing Coverage
 
-The project demonstrates:
+The project covers multiple functional testing techniques and QA activities.
 
-Functional testing
+Functional Testing
 Positive testing
 Negative testing
-Boundary value testing
+Boundary testing
 End-to-end testing
 Regression testing
 Risk-based testing
+Quality Engineering Activities
+Requirement analysis
+Test design
+Test execution
 Defect validation
-Release readiness validation
-📈 QA Engineering Focus
-
-The project demonstrates the ability to move beyond test execution and contribute across the broader QA lifecycle:
-
-Analyze
-   ↓
-Plan
-   ↓
-Design
-   ↓
-Execute
-   ↓
-Report
-   ↓
-Assess Risk
-   ↓
-Support Release
-
-The emphasis is on applying structured QA practices to improve product quality, identify risks, provide meaningful test evidence, and support release decisions.
-
+Test reporting
+Quality assessment
+Release readiness evaluation
 🐞 Defect Management
 
-Defects are evaluated using a structured approach covering:
+The defect management process considers:
 
 Defect identification
 Severity assessment
@@ -136,13 +118,13 @@ Regression impact
 Defect retesting
 Defect closure validation
 
-This demonstrates a structured defect lifecycle rather than simply identifying test failures.
+The objective is to demonstrate a structured defect lifecycle rather than simply recording test failures.
 
 🔄 Regression Testing
 
-Regression testing is planned to validate that changes and fixes do not adversely affect existing functionality.
+Regression testing is planned around the impact of changes and previously identified risks.
 
-Regression considerations include:
+The regression approach considers:
 
 Impacted functionality
 Related business workflows
@@ -151,11 +133,11 @@ Critical user journeys
 High-risk areas
 Previously identified defects
 Core end-to-end workflows
-📊 QA Metrics & Quality Assessment
+📊 Test Metrics & Quality Assessment
 
-The project incorporates QA metrics and quality indicators to support objective assessment of product quality.
+The project incorporates quality indicators to support objective assessment of the testing process.
 
-The assessment considers areas such as:
+Metrics and assessment areas include:
 
 Test execution status
 Pass/fail results
@@ -164,13 +146,13 @@ Defect severity
 Test coverage
 Regression status
 High-risk areas
-Release risks
+Outstanding release risks
 
-The objective is to provide meaningful quality information to support release decision-making.
+These indicators help provide a clear view of product quality and support release decision-making.
 
 🚦 Release Readiness
 
-Release readiness is assessed based on:
+Release readiness is assessed using factors such as:
 
 Test execution status
 Critical functionality coverage
@@ -181,19 +163,50 @@ High-risk areas
 Overall product stability
 Outstanding quality risks
 
-The goal is to provide a clear QA perspective on whether the product is ready for release.
+The objective is to provide a structured QA perspective for release decision-making.
 
-📁 Project Structure
+🧭 QA Engineering Approach
+
+The project demonstrates a QA mindset that goes beyond test execution:
+
+Understand Requirements
+        ↓
+Identify Quality Risks
+        ↓
+Define Test Strategy
+        ↓
+Design Test Coverage
+        ↓
+Execute & Capture Evidence
+        ↓
+Analyze Defects
+        ↓
+Perform Regression
+        ↓
+Evaluate Quality Metrics
+        ↓
+Assess Release Readiness
+
+This approach reflects the role of QA engineering across the broader software development lifecycle.
+
+📁 Repository Structure
 ecommerce-end-to-end-qa/
 │
-├── tests/
-├── test_data/
-├── reports/
-├── screenshots/
+├── 01-requirements/
+├── 02-test-strategy/
+├── 03-test-plan/
+├── 04-test-scenarios/
+├── 05-test-cases/
+├── 06-test-data/
+├── 07-test-execution/
+├── 08-defects/
+├── 09-regression/
+├── 10-test-metrics/
+├── 11-release-readiness/
+├── 12-test-summary/
+│
+├── .gitignore
 └── README.md
-
-Repository structure may evolve as additional QA assets and test scenarios are added.
-
 💼 Skills Demonstrated
 QA Engineering
 Test Strategy
@@ -209,56 +222,21 @@ Defect Management
 Test Reporting
 QA Metrics
 Release Readiness Assessment
-QA Governance
-Professional QA Practices
+QA Leadership & Governance
 Requirement analysis
-Structured test documentation
 Test traceability
-Risk assessment
+Quality risk assessment
 Defect lifecycle management
 Regression planning
 Quality reporting
 Release decision support
+QA governance
+🎯 Key Takeaway
 
-🎯 Professional QA Perspective
-This project demonstrates a broader QA engineering mindset rather than focusing only on test execution.
+This project demonstrates a complete QA engineering lifecycle, from understanding requirements to providing a structured release-readiness assessment.
 
-The approach covers:
+Rather than focusing only on test execution, the project demonstrates how QA contributes through:
 
-Requirements
-     ↓
-Quality Risks
-     ↓
-Test Strategy
-     ↓
-Test Coverage
-     ↓
-Execution & Evidence
-     ↓
-Defect Analysis
-     ↓
-Regression
-     ↓
-Quality Metrics
-     ↓
-Release Decision
+Strategy → Planning → Design → Execution → Defect Management → Regression → Metrics → Release Readiness
 
-This reflects how QA engineering can contribute throughout the software development lifecycle.
-
-🚀 Key Takeaway
-
-This project demonstrates a complete QA engineering approach for an e-commerce product, with emphasis on:
-
-Test strategy
-Structured test planning
-Test design
-Functional testing
-End-to-end testing
-Defect management
-Regression testing
-Quality metrics
-Risk assessment
-Release readiness
-Test reporting
-
-It is designed as a practical Proof of Work rather than a collection of isolated test cases
+It is intended to serve as practical Proof of Work demonstrating structured QA engineering and quality ownership.
